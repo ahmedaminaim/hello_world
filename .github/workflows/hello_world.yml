@@ -22,7 +22,7 @@ jobs:
       - name: current directory
         id: hash
         run: |
-          pwd
+          ls helloworld/
         shell: bash
 
       # You need to run `dagger-cue project init` locally before and commit the cue.mod directory to the repository with its contents
