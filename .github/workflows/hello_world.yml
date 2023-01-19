@@ -27,6 +27,7 @@ jobs:
           version: 0.2
           # To pin external dependencies, you can use `project update github.com/[package-source]@v[n]`
           cmds: |
+            ls
             project update
             do build
         # env:
