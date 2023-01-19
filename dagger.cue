@@ -25,7 +25,7 @@ dagger.#Plan & {
         complie: {
             _complie: core.#Nop & {
                 // we access the command's output via the `stdout` field
-                input: strings.TrimSpace(client.commands.complie.stdout)
+                input: strings.TrimSpace(client.commands.complie.stderr)
             }
             // action outputs for debugging
             complie: _complie.output
