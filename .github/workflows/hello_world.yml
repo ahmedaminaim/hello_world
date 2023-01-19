@@ -19,11 +19,11 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@main
 
-      - name: current directory
-        id: hash
-        run: |
-          ls helloworld/
-        shell: bash
+      # - name: current directory
+      #   id: hash
+      #   run: |
+      #     ls helloworld/
+      #   shell: bash
 
       # You need to run `dagger-cue project init` locally before and commit the cue.mod directory to the repository with its contents
       - name: complie app with dagger
@@ -34,4 +34,5 @@ jobs:
           # To pin external dependencies, you can use `project update github.com/[package-source]@v[n]`
           cmds: |
             project update
-            do build
+            do complie
+            do hash

@@ -20,21 +20,26 @@ dagger.#Plan & {
         }
     }
                     
-    actions: build: {
-        _complie: core.#Nop & {
-            // we access the command's output via the `stdout` field
-            input: strings.TrimSpace(client.commands.complie.stdout)
-        }
-        // action outputs for debugging
-        complie: _complie.output
-
-
-        _calculate_sha256: core.#Nop & {
-            // we access the command's output via the `stdout` field
-            input: strings.TrimSpace(client.commands.sha256Sum.stdout)
-        }
-        
-        sha256: _calculate_sha256.output
+    actions: {
     
+        complie: {
+            _complie: core.#Nop & {
+                // we access the command's output via the `stdout` field
+                input: strings.TrimSpace(client.commands.complie.stdout)
+            }
+            // action outputs for debugging
+            complie: _complie.output
+
+        }
+
+        hash: {
+
+            _calculate_sha256: core.#Nop & {
+                // we access the command's output via the `stdout` field
+                input: strings.TrimSpace(client.commands.sha256Sum.stdout)
+            }
+            
+            sha256: _calculate_sha256.output
+        }
     }
 }
