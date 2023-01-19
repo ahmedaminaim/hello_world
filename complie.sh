@@ -1,3 +1,3 @@
 #!/bin/bash
 
-dotnet build --configuration Release helloworld/ --no-restore
+dotnet build helloworld/ --no-restore -c Release 
