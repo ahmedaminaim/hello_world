@@ -1,0 +1,5 @@
+/home/sherlock/Desktop/application-security/hello_world/bin/Release/net6.0/publish/MyApp
+/home/sherlock/Desktop/application-security/hello_world/bin/Release/net6.0/publish/MyApp.dll
+/home/sherlock/Desktop/application-security/hello_world/bin/Release/net6.0/publish/MyApp.deps.json
+/home/sherlock/Desktop/application-security/hello_world/bin/Release/net6.0/publish/MyApp.runtimeconfig.json
+/home/sherlock/Desktop/application-security/hello_world/bin/Release/net6.0/publish/MyApp.pdb

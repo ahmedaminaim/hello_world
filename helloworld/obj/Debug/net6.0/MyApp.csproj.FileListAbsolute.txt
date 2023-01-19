@@ -1,0 +1,5 @@
+/home/sherlock/Desktop/application-security/hello_world/obj/Debug/net6.0/MyApp.csproj.AssemblyReference.cache
+/home/sherlock/Desktop/application-security/hello_world/obj/Debug/net6.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/sherlock/Desktop/application-security/hello_world/obj/Debug/net6.0/MyApp.AssemblyInfoInputs.cache
+/home/sherlock/Desktop/application-security/hello_world/obj/Debug/net6.0/MyApp.AssemblyInfo.cs
+/home/sherlock/Desktop/application-security/hello_world/obj/Debug/net6.0/MyApp.csproj.CoreCompileInputs.cache

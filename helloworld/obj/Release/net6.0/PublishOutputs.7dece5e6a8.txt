@@ -1,0 +1,5 @@
+/home/sherlock/Desktop/application-security/hello_world/complied/MyApp
+/home/sherlock/Desktop/application-security/hello_world/complied/MyApp.dll
+/home/sherlock/Desktop/application-security/hello_world/complied/MyApp.deps.json
+/home/sherlock/Desktop/application-security/hello_world/complied/MyApp.runtimeconfig.json
+/home/sherlock/Desktop/application-security/hello_world/complied/MyApp.pdb

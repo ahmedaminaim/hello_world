@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/sherlock/Desktop/adam/MyApp/MyApp.csproj": {}
+    "/home/sherlock/Desktop/application-security/hello_world/helloworld/MyApp.csproj": {}
   },
   "projects": {
-    "/home/sherlock/Desktop/adam/MyApp/MyApp.csproj": {
+    "/home/sherlock/Desktop/application-security/hello_world/helloworld/MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sherlock/Desktop/adam/MyApp/MyApp.csproj",
+        "projectUniqueName": "/home/sherlock/Desktop/application-security/hello_world/helloworld/MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "/home/sherlock/Desktop/adam/MyApp/MyApp.csproj",
+        "projectPath": "/home/sherlock/Desktop/application-security/hello_world/helloworld/MyApp.csproj",
         "packagesPath": "/home/sherlock/.nuget/packages/",
-        "outputPath": "/home/sherlock/Desktop/adam/MyApp/obj/",
+        "outputPath": "/home/sherlock/Desktop/application-security/hello_world/helloworld/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sherlock/.nuget/NuGet/NuGet.Config"
