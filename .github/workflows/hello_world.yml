@@ -19,6 +19,12 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@main
 
+      - name: list files
+        id: hash
+        run: |
+          ls
+        shell: bash
+
       # You need to run `dagger-cue project init` locally before and commit the cue.mod directory to the repository with its contents
       - name: complie app with dagger
         uses: dagger/dagger-for-github@v3
@@ -27,9 +33,5 @@ jobs:
           version: 0.2
           # To pin external dependencies, you can use `project update github.com/[package-source]@v[n]`
           cmds: |
-            ls
             project update
             do build
-        # env:
-        #   # Get one from https://app.netlify.com/user/applications/personal
-        #   NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
