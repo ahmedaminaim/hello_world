@@ -26,7 +26,7 @@ dagger.#Plan & {
             input: strings.TrimSpace(client.commands.complie.stdout)
         }
         // action outputs for debugging
-        // complie: _complie.output
+        complie: _complie.output
 
 
         _calculate_sha256: core.#Nop & {
